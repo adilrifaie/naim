@@ -7,10 +7,10 @@
 
 ## 🧬 Identity
 
-**NAIM Name:** `[Your creative NAIM name — e.g., "Samsun Pocket Hercules"]`  
-**Crew:** `[Your group name]`  
-**App Concept:** `[One sentence — what does your app do?]`  
-**Starting Tool:** `[Stitch / Antigravity / a0.dev / Claude Code / other]`
+**NAIM Name:** `Nik Adil Interactive Meme (NAIM)`  
+**Crew:** `adilrifaie`  
+**App Concept:** `Meme Generator`  
+**Starting Tool:** `Stitch / Claude Code`
 
 ---
 
@@ -33,24 +33,38 @@
 
 | Field | Value |
 |-------|-------|
-| Feature | `[What did you add?]` |
-| Weight | `[X kg]` |
-| Tool Used | `[Stitch / Antigravity / etc.]` |
-| Time | `[X min]` |
-| Attempts | `[How many tries until it worked?]` |
-| Status | ✅ Success / ❌ Failed / ⚠️ Partial |
+| Feature | `Meme App Generator with 3 pages; Home, Editor & Preview/Share Screens` |
+| Weight | `10kg` |
+| Tool Used | `Google Stitch and Claude Code` |
+| Time | `1 hour` |
+| Attempts | `3` |
+| Status | ✅ Success |
 
 **Prompt given to AI:**
 ```
-[Paste exact prompt here]
+"MemeKu" adında bir mobil meme oluşturma uygulaması tasarlayın.
+
+Uygulama 3 ekrana sahip:
+
+1. Ana ekran — popüler meme şablonlarının bir ızgarası (komik etiketli resimler), üstte bir arama çubuğu ve altta bir gezinme çubuğu.
+
+2. Düzenleyici ekranı — seçilen meme şablonunu gösterir,
+iki metin giriş alanı (üst metin ve alt metin),
+bir yazı tipi boyutu kaydırıcısı ve büyük bir "Oluştur" düğmesi.
+
+3. Önizleme ve Paylaş ekranı — son memeyi gösterir,
+bir "Galeriye Kaydet" düğmesi ve sosyal medya simgeleriyle bir "Paylaş" düğmesi.
+
+Eğlenceli, modern ve mobil öncelikli bir görünüm kazandırın.
+En iyi renk paletini yapay zekanın seçmesine izin verin.
 ```
 
 **What happened:**
-- [1-2 sentences: did it work? what broke? what surprised you?]
+- Claude Code, Karpathy Autoresearch reposundaki döngü prensibini anlamama yardımcı oldu. Ondan sonra NAIM projesi için bir fikir geliştirdim. Bir Meme Oluşturucu Uygulaması oluşturmayı seçtim. Claude Code'un verdiği ipuçlarını kullanarak Stitch, NAIM sayfam için çok güzel sayfalar oluşturdu.
 
-**Screenshot:** `[link or filename]`
+**Screenshot:** `.\assets\screenshots\ss1.png`
 
-**Commit:** `[commit hash or message]`
+**Commit:** `Iteration 1 done`
 
 ---
 
